@@ -1,0 +1,48 @@
+.pepino{
+    border: 2px solid black;
+    margin: 40px;
+    padding: 20px;
+}
+.city {
+
+    background-color: tomato;
+    color: white;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+
+}
+.image-container {
+    display: flex;
+    gap: 10px; /*Gap between images horizontally*/
+    margin: 10px; /*Gap between images vertically*/
+    justify-content: space-around;
+}
+
+.fresa{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tomate{
+    display: flex;
+    justify-content: center;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+.centrado{
+    display: flex;
+    justify-content: space-around;
+}
+.estilo-imagen{
+    border-radius: 10%;
+    width: 100px;
+    height: auto;
+}
+.estilo-imagenes{
+    display: flex;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+}
