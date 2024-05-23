@@ -32,12 +32,13 @@
 }
 .centrado{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 .estilo-imagen{
     border-radius: 10%;
-    width: 100px;
-    height: auto;
+    width: 20%;
 }
 .estilo-imagenes{
     display: flex;
@@ -46,3 +47,11 @@
     height: 50px;
     align-items: center;
 }
+.autor{
+    display: flex;
+    justify-self: center;
+    width: 200px;
+}
+
+
+
