@@ -1,3 +1,4 @@
+
 .pepino{
     border: 2px solid black;
     margin: 40px;
@@ -21,7 +22,11 @@
 
 .fresa{
     display: flex;
+    position: sticky;
+    top: 0;
     justify-content: space-between;
+    border-color: black;
+    border-bottom: 2px;
 }
 
 .tomate{
@@ -52,6 +57,22 @@
     justify-self: center;
     width: 200px;
 }
+#header{
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
 
+section{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+    text-align: center;
+    
+}
 
-
+body{
+    background-color: black;
+    color: white;
+}

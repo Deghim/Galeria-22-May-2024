@@ -1,0 +1,65 @@
+#header{
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+section{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+    text-align: center;
+    animation: a 1s ease-in;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+@keyframes a {
+    from {
+        margin-top: 100%;
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        margin-top: 0;
+    }
+    
+}
+.center{
+    display: grid;
+    justify-items: center;
+    min-height: 10vh;
+}
+.gallery{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#botoncillo{
+    width: 5vh;
+    height: 2vh;
+    margin-bottom: 100px;
+}
+
+#botoncillo:active{
+    border: 0;
+    border-radius: 5px;
+    width: 5vh;
+    height: 2vh;
+    background-color: grey;
+    cursor: pointer;
+}
+#wakala{
+    background-color: white;
+    border-radius: 5px;
+    width: 10vh;
+    height: 5vh;
+}
+
+#wakala:active{
+    background-color: grey;
+}
